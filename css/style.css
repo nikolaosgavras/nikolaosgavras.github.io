@@ -22,6 +22,19 @@ p, .paragraph {
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
 }
+
+/* Default font size for larger screens */
+.hero-area h1 {
+  font-size: 5rem; /* Adjust as needed */
+}
+
+/* Font size for mobile devices */
+@media (max-width: 768px) {
+  .hero-area h1 {
+    font-size: 2.25rem; /* Adjust as needed */
+  }
+}
+
 p-lg, .paragraph-lg {
   font-size: 22px;
 }
